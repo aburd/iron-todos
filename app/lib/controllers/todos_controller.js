@@ -9,5 +9,10 @@ TodosController = RouteController.extend({
 
   detail: function () {
     this.render('TodosDetail', { /* data: {} */});
+  },
+
+  edit: function(){
+  	this.state.set('isEditing', true);
+  	this.render('TodosDetail');
   }
 });
