@@ -4,7 +4,9 @@
   </div>
 
 	<div class="subject">
-		{{subject}}
+		{{#linkTo route='todos.detail'}}
+			{{subject}}
+		{{/linkTo}}
 	</div>
 
 	<div class="action"></div>
