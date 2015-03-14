@@ -3,3 +3,8 @@
  *  this.ready();
  * });
  */
+
+
+Meteor.publish('todos', function (/* args */) {
+  return Todos.find({userId: this.userId});
+});
