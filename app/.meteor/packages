@@ -8,6 +8,8 @@ meteor-platform
 autopublish
 insecure
 iron:router
-reywood:bootstrap3-sass
-ian:accounts-ui-bootstrap-3
 accounts-meteor-developer
+less
+bootstrap
+accounts-ui
+service-configuration
