@@ -11,3 +11,4 @@ less
 bootstrap
 accounts-ui
 service-configuration
+momentjs:moment
